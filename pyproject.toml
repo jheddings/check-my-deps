@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "check-my-deps"
+version = "0.1.0"
+description = "Used for testing dependency checks."
+authors = ["jheddings <jheddings@gmail.com>"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
