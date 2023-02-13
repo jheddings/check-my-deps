@@ -14,7 +14,7 @@
     "automerge": true
   },
 
-  "rangeStrategy": "bump",
+  "rangeStrategy": "auto",
   "dependencyDashboard": false,
 
   "timezone": "America/Denver",
