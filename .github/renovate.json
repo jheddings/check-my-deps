@@ -1,0 +1,24 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabled": true,
+
+  "labels": ["dependencies", "renovate"],
+
+  "python": {
+    "addLabels": ["python"],
+    "enabled": true
+  },
+
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+
+  "dependencyDashboard": false,
+
+  "timezone": "America/Denver",
+  "schedule": ["at any time"],
+
+  "extends": ["config:base"]
+}
+
